@@ -1,0 +1,26 @@
+{
+  "name": "@ts-tool/ts-codegen-cli",
+  "version": "3.3.0",
+  "main": "dist/lib/index.js",
+  "bin": {
+    "ts-codegen": "bin/cli.js"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "dependencies": {
+    "@ts-tool/ts-codegen-core": "^3.3.0",
+    "commander": "7.1.x",
+    "prettier": "2.2.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "reeli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reeli/ts-codegen/issues"
+  },
+  "homepage": "https://github.com/reeli/ts-codegen#readme"
+}
